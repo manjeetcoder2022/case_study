@@ -1,0 +1,120 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,71,121,1) 0%, rgba(101,113,111,1) 100%, rgba(153,44,5,1) 100%);
+}
+
+.heading{
+    padding: 5px !important;
+    background-color: rgb(228, 239, 240);
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+nav{
+    background-color: rgb(91, 95, 95) !important;
+    font-weight: bold;
+}
+.navbar-brand{
+    color: rgb(231, 138, 125) !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#lens{
+    font-size: 18px;
+    color: rgb(2, 194, 82);
+    font-family: sans-serif;
+}
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+h1{
+    font-weight: bold !important;
+    font-size: 30px !important;
+}
+#net{
+    font-size: 20px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#test_image{
+    width: 350px;
+    height: 250px;
+    border:2px solid black;
+}
+#test_image img{
+    width: 250px;
+    height: 250px;
+ 
+}
+#test_1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.result_hading_1{
+    background-color: white !important;
+  width:200px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+  
+    height: 100px;
+}
+.result_hading_2{
+    background-color: white !important;
+    height: 100px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    width:200px;
+}
+
+
+#conculuion{
+ 
+margin: 20px;
+}
+#conculuion h3{
+color: red;
+font-weight: bold;
+}
+#conculuion p{
+    max-width: 200px;
+    background-color: bisque;
+    padding: 5px;
+    line-height: 25px;
+    border-radius: 10px;
+   
+}
+footer{
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   text-align: center;
+   font-weight: bold  !important; 
+
+}
+#about{
+    
+}
+#about h3 ,#text_1{
+font-weight: bold;
+color: rgb(209, 115, 28);
+font-size: 35px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#about p{
+    max-width: 300px;
+    text-align: center;
+    background-color: white !important;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 5px;
+}

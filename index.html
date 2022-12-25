@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Lens vs MobileNet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"> </script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <center>
+        <nav class="navbar-inverse">
+         <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#fifa">
+
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+<a href="#" class="navbar-brand">Lens Vs Mobile Net</a>
+         </div>
+<div class="collapse navbar-collapse" id="fifa">
+    <ul class="nav navbar-nav" >
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#study">Study</a></li>
+    </ul>
+</div>
+
+        </nav>
+
+    <div class="container">
+        <div id="home">
+    <h3 class=" heading">Google Lens And Mobile Net</h3>
+  <br> 
+   <span id="lens">Google Lens</span> <img src="googleLens.png"> <h1>VS</h1>
+    <h3 id="net" class="btn btn-info">MobileNet</h3>
+<br> <br>
+
+</div>
+<hr>
+<div id="about">
+    <h3>About</h3>
+    <div id="google_lens">
+    <span id="lens">Google Lens</span> <img src="googleLens.png">
+    <br><br> <p>Google Lens is a set of vision-based computing capabilities that can understand what you're looking at and use that information to copy or translate text, identify plants and animals, explore locales or menus, discover products, find visually similar images, and take other useful actions.</p>
+</div>
+<div id="mobilenet">
+    <h3 id="net" class="btn btn-info">MobileNet</h3>
+    <br> <br> <p>MobileNet is a streamlined architecture that uses depthwise separable convolutions to construct lightweight deep convolutional neural networks and provides an efficient model for mobile and embedded vision applications.</p>
+</div>
+</div>
+<div id="study">
+<h3 id="text_1" style="color:rgb(226, 177, 43)">Study</h3>
+<div id="test_1" >
+<div >
+    <span style="color:black;font-size:18px">1. </span> <span style="color:white;font-size:18px; font-family: monospace;">Smiley Ball -</span><div id="test_image"><img src="smile.jpg"></div>
+</div>
+    <div class="result_hading_1">Output on <span style="color: rgb(49, 194, 12);">GOOGLE LENS - </span><span id="name_object" style="color:red;"></span><br>
+
+        <br> <br> <br>   <h3 id="results">Results <br><span style="color: yellow; font-weight: smaller;">Smiley Ball</span> </h3> <hr>
+        <h3 style="color: rgb(223, 133, 31);">Accurate <br> <span style="color: rgb(49, 194, 12); text-align: center;">Google lens</span></h3>
+    </div>
+    <div class="result_hading_2 ">Output on <span style="color: blue;">MOBILE NET - </span> <span id="name_object_2"  style="color:red;"></span><br>
+        <br> <br> <br>   <h3 id="results">Results <br><span style="color: yellow; font-weight: smaller;">Ballon  and bubble  </span> </h3><hr>
+    </div>
+ 
+</div>
+<br> <Br>
+
+  
+<div id="test_1" >
+    <div >
+        <span style="color:black;font-size:18px">2. </span> <span style="color:white;font-size:18px; font-family: monospace;">White board maker -</span><div id="test_image"><img src="maker.png"></div>
+    </div>
+        <div class="result_hading_1">Output on <span style="color: rgb(49, 194, 12);">GOOGLE LENS - </span><span id="name_object" style="color:red;"></span> <br> 
+    
+            <br> <br> <br>   <h3 id="results">Results <br><span style="color: yellow; font-weight: smaller;">Pen</span> </h3> <hr>
+           
+        </div>
+        <div class="result_hading_2 ">Output on <span style="color: blue;">MOBILE NET - </span> <span id="name_object_2"  style="color:red;"></span> <br>
+            <br> <br> <br>   <h3 id="results">Results <br><span style="color: yellow; font-weight: smaller;">Ball point pen</span> </h3><hr>
+            <h3 style="color: rgb(223, 133, 31);">Accurate <br> <span style="color: rgb(49, 194, 12); text-align: center;">MobileNet</span></h3>
+        </div>
+     
+    </div>
+    <BR> <BR>
+    <div id="test_1" style="margin-left: 20px;" >
+        <div >
+            <span style="color:black;font-size:18px">3. </span> <span style="color:white;font-size:18px; font-family: monospace;">Glasses-</span><div id="test_image"><img src="chasma.png"></div>
+        </div>
+            <div class="result_hading_1">Output on <span style="color: rgb(49, 194, 12);">GOOGLE LENS - </span><span id="name_object" style="color:red;"></span> <br>
+        
+                <br> <br> <br>   <h3 id="results">Results <br><span style="color: yellow; font-weight: smaller;">Glasses</span> </h3> <hr>
+               
+            </div>
+            <h3 style="color: rgb(223, 133, 31);">Accurate <br> <span style="color: rgb(49, 194, 12); text-align: center;">Both </span></h3>
+            <div class="result_hading_2 ">Output on <span style="color: blue;">MOBILE NET - </span> <span id="name_object_2"  style="color:red;"></span> <br>
+                <br> <br> <br>   <h3 id="results">Results <br><span style="color: yellow; font-weight: smaller;">Glasses</span> </h3><hr>
+                
+            </div>
+         
+        </div>
+        <br> <br>
+
+      
+        <div id="test_1" >
+            <div >
+                <span style="color:black;font-size:18px">4. </span> <span style="color:white;font-size:18px; font-family: monospace;">Potted plant-</span><div id="test_image"><img src="poet.png"></div>
+            </div>
+                <div class="result_hading_1">Output on <span style="color: rgb(49, 194, 12);">GOOGLE LENS - </span><span id="name_object" style="color:red;"></span> <br> 
+            
+                    <br> <br> <br>   <h3 id="results">Results <br><span style="color: yellow; font-weight: smaller;">Fern plant
+                    </span> </h3> <hr>
+                    <h3 style="color: rgb(223, 133, 31);">Accurate <br> <span style="color: rgb(49, 194, 12); text-align: center; font-size: 15px;">Both result is not accurate , but Google lens is accurate then MobileNet</span></h3>
+                </div>
+                <div class="result_hading_2 ">Output on <span style="color: blue;">MOBILE NET - </span> <span id="name_object_2"  style="color:red;"></span> <br>
+                    <br> <br> <br>   <h3 id="results">Results <br><span style="color: yellow; font-weight: smaller;">Shower curtain</span> </h3><hr>
+                   
+                </div>
+             
+            </div>
+            <BR> <BR>
+                <div id="test_1" >
+                    <div >
+                        <span style="color:black;font-size:18px">5. </span> <span style="color:white;font-size:18px; font-family: monospace;">Mouse -</span><div id="test_image"><img src="mouse.png"></div>
+                    </div>
+                        <div class="result_hading_1">Output on <span style="color: rgb(49, 194, 12);">GOOGLE LENS - </span><span id="name_object" style="color:red;"></span> <br> 
+                    
+                            <br> <br> <br>   <h3 id="results">Results <br><span style="color: yellow; font-weight: smaller;">Wried mouse
+                            </span> </h3> <hr>
+                          
+                        </div>
+                        <div class="result_hading_2 ">Output on <span style="color: blue;">MOBILE NET - </span> <span id="name_object_2"  style="color:red;"></span> <br>
+                            <br> <br> <br>   <h3 id="results">Results <br><span style="color: yellow; font-weight: smaller;">Compuetr mouse</span> </h3><hr>
+                            <h3 style="color: rgb(223, 133, 31);">Accurate <br> <span style="color: rgb(49, 194, 12); text-align: center; ">MobileNet</span></h3>
+                        </div>
+                     
+                    </div>
+<br> <br> 
+</div>
+                    <Div id="conculuion">
+                        <h3>Conclusion</h3>
+                        <p>Google lens is more accurate than MobileNet , but also MobileNet is not bad but his result not more accurate than Google lens...</p>
+                    </Div>
+</center>
+<br> <br>
+<footer>
+    <h3>Developed by :Manjeet Kumar</h3>
+</footer>
+</div>
+</body>
+</html>
